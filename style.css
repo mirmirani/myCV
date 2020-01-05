@@ -1,0 +1,47 @@
+/* general*/
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    border-bottom: 0;
+    }
+    
+    /* specific elements */
+    #mntitle {
+    
+    background-color:rgb(240, 220, 44);
+    color: black;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    
+    
+    #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    }
+    
+    
+    /* class */
+    
+    .divs { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 50%;
+     }
+    
+     /*.divs:hover 
+     {
+    background-color:rgb(240, 220, 44);
+     } */
+    
+    

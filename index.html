@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<html>
+<title>My Resume</title>
+<link rel="stylesheet" href="style.css"></link>
+<meta charset="utf-8">
+<meta http-equiv='refresh' content="30">
+<script src="script.js"></script>
+</head>
+
+
+<body>
+<!-- Title -->
+<img id='logo' src="images/js.png" alt="Javascript logo">
+<h1 id="mntitle"> Mir Mirani
+    <p style='text-align:center; font-size:12px;'>+ myNumber + myEmail@email + other details</p>
+</h1>
+<!-- Content -->
+<div style="display: block; margin-left: auto; margin-right: auto;
+margin-bottom: 0; width: 50%; padding-bottom: 0; border-bottom: 0;">
+<h4>Let's Begin</h4>
+<p style="padding-bottom: 0; margin-bottom: 0; border-bottom: 0;"><i> note: JavaScript is processed top to bottom left to right; much like Chinese Characters</i></p><hr>
+</div>
+
+<div class="divs">
+<p id="demo1">This is a button</p>
+<button type="button" onclick="myButton()"> Click Me</button>
+<p id='hello'></p>
+<script>
+function myButton(onclick) {
+var msg;
+switch (msg) {
+    case onclick:
+    msg = 'hello!'
+    break;
+    else onclick:
+    msg ='oh you clicked again!'
+    break;
+    case onclick:
+    msg ='stop clciking!'
+}
+document.getElementById('hello').innerHTML= msg;
+}
+</script>
+</div>
+
+<div class="divs">
+<p id='demo2'></p>
+</div>
+
+</body>
+</html>
