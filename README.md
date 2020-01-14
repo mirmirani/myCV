@@ -7,5 +7,8 @@ I used HTML, CSS and Javascript with the web framework w3.css to make this site,
 I also made research and made use of UX principles for example making use of contrasts and using space effectively\
 I hope to upload more projects soon God willing 
 \
-Kind regards\
+\
+Kind regards
+\
+\
 Mir
